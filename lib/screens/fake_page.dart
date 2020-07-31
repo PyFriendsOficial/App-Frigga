@@ -12,8 +12,8 @@ class FakePage extends StatelessWidget {
       controller: _pageController,
       children: <Widget>[
         FakeTab(),
-        HelpTab()
-        ],
+        HelpTab(),
+      ],
     );
   }
 }
