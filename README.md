@@ -2,7 +2,7 @@
 
 #Frigga
 
-Frigga é um app de denúncia totalmente disfarçado,desenvolvido em Flutter, utiliza uma tecnologia segura na qual as vítimas ou denúnciantes não precisam se identificar, após a denúncia, a localização do crime é maracada no mapa e o dispositivo ativa a gravação de áudio que será usado como uma futura evidência. Por meio de um sistema de voluntários Frigga os notifica e estes acionam as autoridades competentes para o local. Agilizando ao máximo o processo de ajuda.
+Frigga é um app de denúncia totalmente disfarçado,desenvolvido em Flutter, utiliza uma tecnologia segura na qual as vítimas ou denúnciantes não precisam se identificar, após a denúncia, a localização do crime é marcada no mapa e o dispositivo ativa a gravação de áudio que será usado como uma futura evidência. Por meio de um sistema de voluntários Frigga os notifica e estes acionam as autoridades competentes para o local. Agilizando ao máximo o processo de ajuda.
 
 
 //EN-US
