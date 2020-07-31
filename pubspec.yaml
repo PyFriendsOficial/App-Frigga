@@ -53,7 +53,11 @@ flutter:
     - assets/solidas.png
     - assets/Ajuda1.png
     - assets/atencao.png
+    - assets/japanesefood.png
+    - assets/pastel.jpg
+    - assets/pizza.jpg
     - assets/audios/audio.mp4
+    
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
