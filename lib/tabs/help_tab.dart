@@ -1,3 +1,4 @@
+import 'package:app_violencia/screens/help_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -32,53 +33,75 @@ class HelpTab extends StatelessWidget {
             child: Image.asset("assets/Ajuda1.png"),
           ),
           SizedBox(
-              height: 20.0,
+              height: 40.0,
             ),
           Column(
             children: <Widget>[
               ButtonTheme(
-                buttonColor: Colors.white,
+                buttonColor: Colors.black,
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
-                onPressed: () {},
-                child: Text("Preciso de Ajuda"),
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> HelpScreen()));
+                },
+                child: Text(
+                  "Preciso de Ajuda",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  ),
               ),
             ),
             SizedBox(
               height: 20.0,
             ),
               ButtonTheme(
-                buttonColor: Colors.white,
+                buttonColor: Colors.black,
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
                 onPressed: () {},
-                child: Text("Quero Denunciar"),
+                child: Text(
+                  "Quero Denunciar",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  ),
               ),
             ),
             SizedBox(
               height: 20.0,
             ),
               ButtonTheme(
-                buttonColor: Colors.white,
+                buttonColor: Colors.black,
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
                 onPressed: () {},
-                child: Text("Login de Voluntário"),
+                child: Text(
+                  "Login de Voluntário",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  ),
               ),
             ),
             SizedBox(
               height: 20.0,
             ),
               ButtonTheme(
-                buttonColor: Colors.white,
+                buttonColor: Colors.black,
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
                 onPressed: () {},
-                child: Text("Quero Ser Voluntário"),
+                child: Text(
+                  "Quero Ser Voluntário",
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                  ),
               ),
             ),
             ],
