@@ -1,4 +1,7 @@
 import 'package:app_violencia/screens/help_page.dart';
+import 'package:app_violencia/screens/login_page.dart';
+import 'package:app_violencia/screens/report_page.dart';
+import 'package:app_violencia/screens/voluntar_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -61,7 +64,9 @@ class HelpTab extends StatelessWidget {
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ReportScreen()));
+                },
                 child: Text(
                   "Quero Denunciar",
                   style: TextStyle(
@@ -78,7 +83,9 @@ class HelpTab extends StatelessWidget {
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> LoginPage()));
+                },
                 child: Text(
                   "Login de Voluntário",
                   style: TextStyle(
@@ -95,7 +102,9 @@ class HelpTab extends StatelessWidget {
                 minWidth: 300.0,
                 height: 50.0,
                 child: RaisedButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> VoluntaryPage()));
+                },
                 child: Text(
                   "Quero Ser Voluntário",
                   style: TextStyle(
