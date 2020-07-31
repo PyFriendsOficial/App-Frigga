@@ -1,4 +1,5 @@
 import 'package:app_violencia/tabs/fake_tab.dart';
+import 'package:app_violencia/tabs/help_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
@@ -9,7 +10,10 @@ class FakePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return PageView(
       controller: _pageController,
-      children: <Widget>[FakeTab()],
+      children: <Widget>[
+        FakeTab(),
+        HelpTab()
+        ],
     );
   }
 }
