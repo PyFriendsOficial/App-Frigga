@@ -1,16 +1,12 @@
-# app_violencia
+//PT-BR
 
-A new Flutter project.
+#Frigga
 
-## Getting Started
+Frigga é um app de denúncia totalmente disfarçado,desenvolvido em Flutter, utiliza uma tecnologia segura na qual as vítimas ou denúnciantes não precisam se identificar, após a denúncia, a localização do crime é marcada no mapa e o dispositivo ativa a gravação de áudio que será usado como uma futura evidência. Por meio de um sistema de voluntários Frigga os notifica e estes acionam as autoridades competentes para o local. Agilizando ao máximo o processo de ajuda.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+//EN-US
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#Frigga
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Frigga is a disguised denunciation app, developed in flutter, uses a totally safe technology where victms and denunciators do not need to identify themselves, after the denunciation, the location of the crime is marked on a map and the device start recording the audio of the microphone wich is going to be used for a future evidence. Through a volunteer system, Frigga notify them and they call the authorities to the location of the crime. Turning the help process faster. 
