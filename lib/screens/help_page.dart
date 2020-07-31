@@ -1,5 +1,4 @@
 import 'package:app_violencia/screens/fake_page.dart';
-import 'package:app_violencia/screens/loading_page.dart';
 import 'package:app_violencia/tabs/help_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_audio_recorder/flutter_audio_recorder.dart';
@@ -55,7 +54,7 @@ class _HelpScreenState extends State<HelpScreen> {
                 onPressed: () {
                   _searchHelp();
                   print(_startRecording());
-                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> LoadingPage()));
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context)=> HelpTab()));
                 },
                 child: Text(
                   "Continuar",
